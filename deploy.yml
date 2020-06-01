@@ -3,9 +3,9 @@
   tasks:
    - name: Log into DockerHub
      docker_login:
-      username: 
-      password: 
-      email:  
+      username: rchandu3447
+      password: Chandu@123
+      email:  raochandu.dev@gmail.com
       
    - name: Pull image from docker hub
      command: docker pull rchandu3447/chandu-python:"{{buildNumber}}"
