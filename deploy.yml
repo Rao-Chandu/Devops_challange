@@ -19,4 +19,4 @@
      ignore_errors: yes
 
    - name: Run a container from the pulled image
-     command: docker run --name chandu-c1 --network host -d rchandu3447/chandu-c1:"{{buildNumber}}"
+     command: docker run --name chandu-c1 --network host -d rchandu3447/chandu-python:"{{buildNumber}}"
