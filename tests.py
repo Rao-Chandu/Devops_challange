@@ -40,9 +40,8 @@ class ServerTestCase(TestCase):
         self.assertIn('name', data.keys())
         self.assertIn('greeting', data.keys())
         self.assertIn('World', data['name'])
-   
-   
-   @classmethod
+
+    @classmethod
     def tearDownClass(cls) -> None:
         sys.stdout.write('\nStopping web-server...\n')
         time.sleep(1)
