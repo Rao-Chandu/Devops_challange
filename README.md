@@ -77,7 +77,7 @@ step 4 : Executing the terraform script and Installing the nginx in EC2 and conf
         
         nginx conf :
 
-            1. sudo apt-install -y nginx
+            1. sudo apt-get install -y nginx
 
             2. cd /etc/nginx/sites-available
 
@@ -93,7 +93,7 @@ step 4 : Executing the terraform script and Installing the nginx in EC2 and conf
             
             4. save it 
 
-            5. ln -s /etc/nginx/sites-available/devops.challange /etc/nginx/sites-enables/devops.challange
+            5. ln -s /etc/nginx/sites-available/devops.challange /etc/nginx/sites-enabled/devops.challange
 
             6. systemctl restart nginx
 
